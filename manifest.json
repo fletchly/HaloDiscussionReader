@@ -1,0 +1,22 @@
+{
+"manifest_version": 3,
+"name": "Discussion Reader",
+"version": "1.2",
+"description": "Read all Halo discussion posts",
+"icons": {
+    "16": "images/icon.png",
+    "32": "images/icon.png",
+    "48": "images/icon.png",
+    "128":"images/icon.png"
+    },
+    "background" : {
+        "service_worker" : "js/background.js"
+    },
+    "action": {
+        "default_icon": "images/icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]
+}
